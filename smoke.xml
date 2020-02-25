@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="First suite">
+    <parameter name="login" value="VASIYA"/>
+    <parameter name="passw" value="123456"/>
+        <test name="First test">
+            <classes>
+                 <class name="test.java.TestSimple2">
+                    <methods>
+                        <exclude name="checkAgeSetter"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+</suite>

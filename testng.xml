@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="First suite">
+  <parameter name="login" value="VASIYA">
+     <test name="First test">
+        <classes>
+            <class name="test.java.TestSimple"/>
+            <class name="test.java.TestSimple2">
+            </class>
+        </classes>
+    </test>
+  </parameter>
+</suite>
